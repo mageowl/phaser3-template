@@ -1,7 +1,7 @@
 const game = new Phaser.Game({
 	type: Phaser.AUTO,
 	scale: {
-		mode: Phaser.Scale.SCALE
+		mode: Phaser.Scale.RESIZE
 	},
 	physics: {
 		default: "arcade"
